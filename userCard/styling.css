@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    /* border:solid black; */
+    height:300px;
+    width:75%;
+    position:relative;
+    margin:5% 15%;
+}
+.banner{
+    background-color:hsl(190, 52.5%, 47.1%);
+    height:33%;
+    border:solid hsl(190, 52.5%, 47.1%);
+}
+.profile{
+    height:66%;
+    border:solid lightgrey;
+    border-top:solid hsl(190, 52.5%, 47.1%);
+    justify-content:left;
+    padding:15px;
+}
+.profilePicture{
+    height:45%;
+    position:relative;
+    top: -70px;
+    border:solid lightgrey;
+    border-radius:75%;
+}
+.userName{
+    position:relative;
+    display:block;
+    /* border:solid black; */
+    top:-70px;
+    right:-10px;
+}
+.mapPin{
+    display:inline;
+    height:10%;
+    position:relative;
+    top: -30%;
+    left:1%;
+}
+.location{
+    display:inline;
+    position:relative;
+    top: -30%;
+    left:2%;
+}
+.aboutMe{
+    border:solid black;
+    width:40%;
+    position:relative;
+    top:-25%;
+}
+.gear{
+    height:10%;
+    position:relative;
+    top: -20%;
+    /* left:1%; */
+}
+.editProfile{
+    position:relative;
+    top:-22%;
+    left:1%;
+}
