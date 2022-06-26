@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Banner */
+.bannerContainer{
+    height:50px;
+    background-color:gray;
+    margin:0% 10%;
+    display:flex;
+    justify-content:space-between;
+}
+.bannerTitle{
+    margin-left:3%;
+    align-self:center;
+    font-weight:bold;
+    font-size:24px;
+}
+.searchBox{
+    align-self:center;
+}
+.loginButton{
+    align-self:center;
+    margin-right: 5%;
+    color:white;
+    background-color:blue;
+    box-shadow:2px 2px black;
+    border-color:black;
+}
+/* Body content */
+.bodyContainer{
+    margin:5% 5% 5% 10%;
+    width:45%;
+    display:inline-flex;
+    flex-direction:column;
+}
+.definitionResult{
+    display:flex;
+    border:solid black;
+    margin-bottom:5%;
+}
+.literary{
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:10px;
+}
+.literary p{
+    align-self:center;
+    padding:5px;
+}
+.likeButton1{
+    background-color:yellow;
+    box-shadow:2px 2px black;
+    border-color:black;
+}
+.likeButton2{
+    background-color:yellow;
+    box-shadow:2px 2px black;
+    border-color:black;
+}
+.definition{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:10px;
+}
+
+/* Sidebar */
+.sidebarContainer{
+    border:solid black;
+    width:25%;
+    display:inline-flex;
+    flex-flow:column;
+}
+.sidebarCallToAction{
+    padding:5% 0% 5% 5%;
+    display:flex;
+    flex-flow: row;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.calltoAction{
+    font-size:24px;
+}
+.addDefinition{
+    width:100%;
+    align-self:center;
+    display:flex;
+    justify-content:center;
+}
+.addDefinition button{
+    background-color:green;
+    color:white;
+    width:80%;
+}
+
+
+/* Footer */
+.footerContainer{
+    height:50px;
+    width:100%;
+    background-color:gray;
+    bottom:0;
+    position:absolute;
+}

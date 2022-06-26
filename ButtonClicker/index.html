@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <div class="bannerContainer">
+        <div class="bannerTitle">Dojonary</div>
+        <input class="searchBox" type="text" placeholder="Search if you dare...">
+        <button class="loginButton" onclick="loginClick(this)">Login</button>
+    </div>
+    <div class="bodyContainer">
+        <div class="definitionResult">
+            <div class="literary">
+                <p><b>ninja</b></p>
+                <p><i>noun</i></p>
+                <p>plural: ninjas</p>
+                <button class="likeButton1" onclick="likeClicked()">13 likes</button>
+            </div>
+            <div class="definition">
+                <p>A practitioner skilled in the <a href="https://en.wikipedia.org/wiki/Japanese">Japanese</a> art of <a href="https://en.wikipedia.org/wiki/Ninjutsu">ninjutsu</a></p>
+            </div>
+        </div>
+        <div class="definitionResult">
+            <div class="literary">
+                <p><b>ninja</b></p>
+                <p><i>noun</i></p>
+                <p>plural: ninjas</p>
+                <button class="likeButton2" onclick="likeClicked()">37 likes</button>
+            </div>
+            <div class="definition">
+                <p>A <a href="https://en.wikipedia.org/wiki/Programmer">Programmer</a> who breaks down problems with <a href="https://en.wikipedia.org/wiki/Zen">zen</a>-like focus</p>
+            </div>
+        </div>
+    </div>
+    <div class="sidebarContainer">
+            <div class="sidebarCallToAction">
+            <div class="calltoAction">
+                <p>Dojonary is <br>defined by <b>YOU</b></p>
+            </div>
+            <div class="addDefinition">
+                <button onclick="hideAddDef(this)">Add a definition</button>
+            </div>
+        </div>
+    </div>
+    <div class="footerContainer">
+
+    </div>
+
+<script src="ButtonClicker.js"></script>
+</body>
+</html>
