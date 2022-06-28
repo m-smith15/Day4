@@ -95,10 +95,16 @@ li button{
     position:relative;
     top:-30%;
 }
+.gear img{
+    height:20px;
+
+}
 .gear{
-    height:10%;
+    height:20px;
     position:relative;
     top: -17%;
+    background-color:transparent;
+    border-color:transparent;
 
 }
 .editProfile{
@@ -181,36 +187,60 @@ li button{
     justify-content:center;
     display:inline-flex;
 }
-.connectionRequest1{
+.connectionRequest{
     padding:10px;
     text-align:center;
     display:flex;
     justify-content:space-around;
     
 }
-.connectionRequest2{
+/* .connectionRequest2{
     padding:10px;
     text-align:center;
     display:flex;
     justify-content:space-around;
     
-}
+} */
 .connectionRequestProfilePicture{
     height:10%;
     width:10%;
     margin: 0px 15px 0px 0px;
     float:left;
 }
+.acceptIcon img{
+    height:20px;
+
+}
 .acceptIcon{
-    height:10%;
-    width:10%;
-    float:right;
+    height:20px;
+    position:relative;
+    top: -17%;
+    background-color:transparent;
+    border-color:transparent;
+
+}
+.declineIcon img{
+    height:20px;
+
 }
 .declineIcon{
+    height:20px;
+    position:relative;
+    top: -17%;
+    background-color:transparent;
+    border-color:transparent;
+
+}
+/* .acceptIcon{
     height:10%;
     width:10%;
     float:right;
-}
+} */
+/* .declineIcon{
+    height:10%;
+    width:10%;
+    float:right;
+} */
 /* connection request End */
 
 /* Existing Connections CSS Start */
